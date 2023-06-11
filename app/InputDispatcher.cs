@@ -237,7 +237,7 @@ namespace GHelper
                         KeyProcess("fnf5");
                         break;
                     case Keys.F6:
-                        KeyboardHook.KeyPress(Keys.Snapshot);
+                        Process.Start("explorer", "ms-screenclip:");
                         break;
                     case Keys.F7:
                         if (AppConfig.ContainsModel("TUF"))
